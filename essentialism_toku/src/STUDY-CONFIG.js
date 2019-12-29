@@ -353,6 +353,71 @@ var homogeneity_fh = [
   },
 ]
 
+// TODO Coordinates
+var natural_fh = [
+  {
+    type: 'action',
+    id: 'nat_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/natural/natural_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'nat_girl',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/natural/natural_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'nat_boy',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/natural/natural_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'nat_animal',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/natural/natural_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  }
+]
+
+
 ///////// Cognitive Tasks /////////
 
 ///// Deference to Experts /////
@@ -777,9 +842,10 @@ var relational_thinking = [
 var familiar_human = [
   forms,
   startGame_fh,
-  homogeneity_fh,
   causal_fh,
   stability_fh,
+  homogeneity_fh,
+  natural_fh,
   def_to_expert
   // end
 ];
