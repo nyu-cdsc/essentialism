@@ -417,6 +417,69 @@ var natural_fh = [
   }
 ]
 
+// TODO Coordinates
+var bound_fh = [
+  {
+    type: 'action',
+    id: 'bound_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop1_enzyme',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop2_enzyme',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop3_enzyme',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+]
 
 ///////// Cognitive Tasks /////////
 
@@ -736,6 +799,7 @@ var familiar_human = [
   startGame_fh,
   causal_fh,
   stability_fh,
+  bound_fh,
   homogeneity_fh,
   natural_fh,
   def_to_expert,
