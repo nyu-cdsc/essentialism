@@ -159,7 +159,6 @@ var stability_fh = [
   },
 ]
 
-// TODO Coordinates
 var causal_fh = [
   {
     type: 'action',
@@ -182,8 +181,8 @@ var causal_fh = [
         parameters: {
           filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
           ]
         },
       }
@@ -198,8 +197,8 @@ var causal_fh = [
         parameters: {
           filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
           ]
         },
       }
@@ -214,8 +213,8 @@ var causal_fh = [
         parameters: {
           filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
           ]
         },
       }
