@@ -59,7 +59,6 @@ var startGame_nh = [
 
 ///// Stability /////
 
-// TODO Coordinates
 var stability_fh = [
   {
     type: 'action',
@@ -70,8 +69,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese1.mp4',
           coordinates: [
-            { value: 'boy', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'girl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'boy', shape: "rect", coordinates: "195, 475, 505, 700" },
+            { value: 'girl', shape: "rect", coordinates: "1165, 475, 1485, 700" },
           ]
         },
       }
@@ -86,8 +85,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese2.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'yes', shape: "rect", coordinates: "475, 650, 650, 900" },
+            { value: 'no', shape: "rect", coordinates: "1025, 650, 1200, 900" },
           ]
         },
       }
@@ -102,8 +101,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese3.mp4',
           coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
           ]
         },
       }
@@ -118,8 +117,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese4.mp4',
           coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
           ]
         },
       }
@@ -134,8 +133,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese5.mp4',
           coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
           ]
         },
       }
@@ -150,8 +149,8 @@ var stability_fh = [
         parameters: {
           filename: '../../../assets/movie/stability/stability_chinese6.mp4',
           coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
           ]
         },
       }
