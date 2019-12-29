@@ -9,7 +9,7 @@ This study uses https://github.com/nyu-cdsc/toku to run the experiment. See the 
 ### For computers that have Visual Studio (VS) Code: 
 2) Open the folder `essentialism_toku` with VS Code. You can possibly do this by right clicking on the folder (there might be an option that says "Open with Code"). If that option is not available, open VS Code, click "File" (on the top left corner), and then click "Open Folder". Find the `essentialism_toku` folder. 
 
-3) Open up a terminal. You can do this by clicking "Terminal" and then "New Terminal" on the top menu, or by clicking `CTRL` + `SHIFT` + " ` ". 
+3) Open up a terminal. You can do this by clicking "Terminal" and then "New Terminal" on the top menu, or by clicking `CTRL` + `SHIFT` + `` ` ``. 
 
 4) If you are connected to the internet, type `git pull` into the terminal and press "Enter". This ensures you have the latest version of the study. 
 
