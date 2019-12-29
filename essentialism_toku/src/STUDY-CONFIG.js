@@ -55,13 +55,116 @@ var startGame_nh = [
   },
 ]
 
-///////// Main Induction Task /////////
+///////// Essentialism Tasks /////////
 
+///// Stability /////
+
+// TODO Coordinates
+var stability_fh = [
+  {
+    type: 'action',
+    id: 'check1_birthgender',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese1.mp4',
+          coordinates: [
+            { value: 'boy', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'girl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'check2_islandgender',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese2.mp4',
+          coordinates: [
+            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'no', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop1_amino',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese3.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop2_spin',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese4.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop3_stick',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese5.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop4_gender',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese6.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+]
 
 
 ///////// Cognitive Tasks /////////
 
 ///// Deference to Experts /////
+
+// TODO Coordinates mostly done but check
 var def_to_expert = [
   {
     type: 'action',
@@ -205,6 +308,7 @@ var def_to_expert = [
   }
 ]
 
+// TODO Coordinates
 var relational_thinking = [
   {
     type: 'action',
@@ -347,6 +451,8 @@ var relational_thinking = [
     ]
   }
 ]
+
+
 // var check2_kita = [
 //   {
 //     type: 'action',
@@ -935,6 +1041,7 @@ var relational_thinking = [
 var familiar_human = [
   forms,
   startGame_fh,
+  stability_fh,
   def_to_expert
   // end
 ];
