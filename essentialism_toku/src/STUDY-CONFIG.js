@@ -159,6 +159,70 @@ var stability_fh = [
   },
 ]
 
+// TODO Coordinates
+var causal_fh = [
+  {
+    type: 'action',
+    id: 'causal_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop1_fence',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop2_ladybug',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop3_shadow',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'individual', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+          ]
+        },
+      }
+    ]
+  }
+]
+
 
 ///////// Cognitive Tasks /////////
 
@@ -1041,6 +1105,7 @@ var relational_thinking = [
 var familiar_human = [
   forms,
   startGame_fh,
+  causal_fh,
   stability_fh,
   def_to_expert
   // end
