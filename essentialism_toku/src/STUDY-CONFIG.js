@@ -223,6 +223,135 @@ var causal_fh = [
   }
 ]
 
+// TODO Coordinates
+var homogeneity_fh = [
+  {
+    type: 'action',
+    id: 'homogeneity_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup1',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup2',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup3',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup4',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese5.mp4',
+          coordinates: [
+            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop1_marrow',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese6.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop2_kiwi',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop3_puddle',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese8.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+          ]
+        },
+      }
+    ]
+  },
+]
 
 ///////// Cognitive Tasks /////////
 
@@ -517,167 +646,7 @@ var relational_thinking = [
 ]
 
 
-// var check2_kita = [
-//   {
-//     type: 'action',
-//     id: 'check2_kita_y',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pidi3cat_check2_kita.mp4',
-//           coordinates: [
-//             { value: 'wrong', shape: "rect", coordinates: "150, 260, 400, 900" },
-//             { value: 'correct', shape: "rect", coordinates: "650, 260, 975, 900" },
-//             { value: 'wrong', shape: "rect", coordinates: "1250, 260, 1500, 900" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'check2_feedback_kita',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pidi3cat_check2_feedback_kita.mp4'
-//         },
-//       }
-//     ]
-//   },
-// ]
 
-// var check2_gazzer = [
-//   {
-//     type: 'action',
-//     id: 'check2_gazzer_r',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pidi3cat_check2_gazzer.mp4',
-//           coordinates: [
-//             { value: 'wrong', shape: "rect", coordinates: "150, 260, 400, 900" },
-//             { value: 'wrong', shape: "rect", coordinates: "650, 260, 975, 900" },
-//             { value: 'correct', shape: "rect", coordinates: "1250, 260, 1500, 900" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'check2_feedback_gazzer',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pidi3cat_check2_feedback_gazzer.mp4',
-//         },
-//       }
-//     ]
-//   },
-// ]
-
-// var attn_check = [
-//   check2_toma,
-//   check2_kita,
-//   check2_gazzer,
-//   {
-//     type: 'control',
-//     shuffle: true
-//   }
-
-// ]
-
-
-// var pizza = [
-//   {
-//     type: 'action',
-//     id: 'pizza_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pizza_toma.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pizza_kita',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pizza_kita.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pizza_gazzer',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pizza_gazzer.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'control',
-//     shuffle: true,
-//   }
-// ]
-// var pizza_gen = [
-//   {
-//     type: 'action',
-//     id: 'pizza_generic_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pizza_gen_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   pizza
-// ]
-
-// var pizza_spec = [
-//   {
-//     type: 'action',
-//     id: 'pizza_specific_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pizza_spec_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   pizza
-// ]
 
 // var piano = [
 //   {
@@ -769,303 +738,6 @@ var relational_thinking = [
 //   piano
 // ]
 
-// var paint = [
-//   {
-//     type: 'action',
-//     id: 'paint_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/paint_toma.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'paint_kita',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/paint_kita.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'paint_gazzer',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/paint_gazzer.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'control',
-//     shuffle: true,
-//   }
-// ]
-// var paint_gen = [
-//   {
-//     type: 'action',
-//     id: 'paint_generic_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/paint_gen_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   paint
-// ]
-// var paint_spec = [
-//   {
-//     type: 'action',
-//     id: 'piano_specific_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/paint_spec_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   paint
-// ]
-
-// var tree = [
-//   {
-//     type: 'action',
-//     id: 'tree_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/tree_toma.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'tree_kita',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/tree_kita.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'tree_gazzer',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/tree_gazzer.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'control',
-//     shuffle: true,
-//   }
-// ]
-// var tree_gen = [
-//   {
-//     type: 'action',
-//     id: 'tree_generic_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/tree_gen_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   tree
-// ]
-// var tree_spec = [
-//   {
-//     type: 'action',
-//     id: 'tree_specific_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/tree_spec_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   tree
-// ]
-
-// var transition = [
-//   {
-//     type: 'action',
-//     id: 'transition',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/transition.mp4',
-//         },
-//       }
-//     ]
-//   },
-// ]
-
-
-// ///////// General Pragmatics Task /////////
-// var pragmatics = [
-//   {
-//     type: 'action',
-//     id: 'pragmatics1',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics1.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "650, 440, 960, 700" },
-//             { value: '3', shape: "rect", coordinates: "1060, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pragmatics2',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics2.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "720, 440, 900, 700" },
-//             { value: '3', shape: "rect", coordinates: "1060, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pragmatics3',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics3.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "720, 440, 900, 700" },
-//             { value: '3', shape: "rect", coordinates: "1060, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pragmatics4',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics4.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "750, 440, 860, 700" },
-//             { value: '3', shape: "rect", coordinates: "1060, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pragmatics5',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics5.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "700, 440, 960, 700" },
-//             { value: '3', shape: "rect", coordinates: "1120, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'pragmatics6',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/pragmatics6.mp4',
-//           coordinates: [
-//             { value: '1', shape: "rect", coordinates: "300, 440, 540, 700" },
-//             { value: '2', shape: "rect", coordinates: "700, 440, 960, 700" },
-//             { value: '3', shape: "rect", coordinates: "1120, 440, 1325, 700" },
-//           ]
-//         },
-//       }
-//     ]
-//   }
-// ]
 
 ///////// End! /////////
 // var end = [
@@ -1105,6 +777,7 @@ var relational_thinking = [
 var familiar_human = [
   forms,
   startGame_fh,
+  homogeneity_fh,
   causal_fh,
   stability_fh,
   def_to_expert
