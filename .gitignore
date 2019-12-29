@@ -1,0 +1,10 @@
+# Don't track content of these folders
+01_docs/
+03_analysis/
+
+*.Rhistory
+*.docx
+*.pdf
+*.ai
+
+
