@@ -27,7 +27,7 @@ var startGame_fh = [
       {
         type: 'picture',
         parameters: {
-          filename: '../../../assets/sample/start.jpeg',
+          filename: '../../../assets/sample/start_chinese.jpg',
           coordinates: [
             { value: 'started', shape: "rect", coordinates: "0, 0, 5000, 5000" },
           ]
@@ -45,7 +45,7 @@ var startGame_nh = [
       {
         type: 'picture',
         parameters: {
-          filename: '../../../assets/sample/start.jpeg',
+          filename: '../../../assets/sample/start_chinese.jpg',
           coordinates: [
             { value: 'started', shape: "rect", coordinates: "0, 0, 5000, 5000" },
           ]
@@ -983,10 +983,10 @@ export const Project = {
         type: 'form',
         parameters: {
           questions: [
-            { name: 'noise', type: "text", questionText: "If inattentive, when did the child stop paying attention?" },
-            { name: 'errors', type: "text", questionText: "Any experimenter errors? If so, explain." },
-            { name: 'comments', type: "text", questionText: "Any comments?" },
-          ],
+            { name: 'comments', type: "text", questionText: "Experimenter ID" },
+            { name: 'attentive', type: "dropdown", options: ["Attentive/Excited", "Attentive", "Distracted", "Not paying attention"], questionText: "How attentive was the child?" },
+            { name: 'comments', type: "text", questionText: "Comments? Experimentor errors, when child stopped paying attention, etc?" },
+          ]
         }
       }
     ]
