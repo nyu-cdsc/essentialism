@@ -567,18 +567,18 @@ var def_to_expert = [
 ]
 
 // TODO Coordinates
-var relational_thinking = [
+var relational = [
   {
     type: 'action',
-    id: 'warmup1',
+    id: 'relational1',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese1.mp4',
+          filename: '../../../assets/movie/relational/relational_chinese1.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'wrong', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'same', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'different', shape: "rect", coordinates: "1200, 500, 1500, 950" },
           ]
         },
       }
@@ -586,123 +586,15 @@ var relational_thinking = [
   },
   {
     type: 'action',
-    id: 'warmup2',
+    id: 'relational2',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese2.mp4',
+          filename: '../../../assets/movie/relational/relational_chinese2.mp4',
           coordinates: [
-            { value: 'wrong', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'correct', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'warmup2_feedback',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese3.mp4'
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'hat_unambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese4.mp4',
-          coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'cup_unambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese5.mp4',
-          coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'hatcup_ambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese6.mp4',
-          coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'key_unambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese7.mp4',
-          coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'spoon_unambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese8.mp4',
-          coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
-          ]
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'keyspoon_ambiguous',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese9.mp4',
-          coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'different', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'same', shape: "rect", coordinates: "1200, 500, 1500, 950" },
           ]
         },
       }
@@ -846,7 +738,8 @@ var familiar_human = [
   stability_fh,
   homogeneity_fh,
   natural_fh,
-  def_to_expert
+  def_to_expert,
+  relational
   // end
 ];
 
