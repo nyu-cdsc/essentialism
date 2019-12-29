@@ -417,7 +417,6 @@ var natural_fh = [
   }
 ]
 
-// TODO Coordinates
 var bound_fh = [
   {
     type: 'action',
@@ -440,8 +439,8 @@ var bound_fh = [
         parameters: {
           filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
           ]
         },
       }
@@ -449,15 +448,15 @@ var bound_fh = [
   },
   {
     type: 'action',
-    id: 'bound_prop2_enzyme',
+    id: 'bound_prop2_perilla',
     stimuli: [
       {
         type: 'movie',
         parameters: {
           filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
           ]
         },
       }
@@ -465,15 +464,15 @@ var bound_fh = [
   },
   {
     type: 'action',
-    id: 'bound_prop3_enzyme',
+    id: 'bound_prop3_roll',
     stimuli: [
       {
         type: 'movie',
         parameters: {
           filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
           ]
         },
       }
@@ -795,7 +794,7 @@ var relational = [
 ///////// The Conditions /////////
 
 var familiar_human = [
-  forms,
+  // forms,
   startGame_fh,
   causal_fh,
   stability_fh,
