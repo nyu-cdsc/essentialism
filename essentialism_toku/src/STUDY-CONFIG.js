@@ -491,8 +491,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese1.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'wrong', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'person', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'road', shape: "rect", coordinates: "1130, 550, 1550, 925" },
           ]
         },
       }
@@ -507,8 +507,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese2.mp4',
           coordinates: [
-            { value: 'wrong', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'correct', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'person', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'road', shape: "rect", coordinates: "1130, 550, 1550, 925" },
           ]
         },
       }
@@ -535,8 +535,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese4.mp4',
           coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'table', shape: "rect", coordinates: "220, 697, 605, 930" },
+            { value: 'head', shape: "rect", coordinates: "1170, 530, 1430, 920" },
           ]
         },
       }
@@ -551,8 +551,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese5.mp4',
           coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'table', shape: "rect", coordinates: "220, 697, 605, 930" },
+            { value: 'head', shape: "rect", coordinates: "1170, 530, 1430, 920" },
           ]
         },
       }
@@ -567,8 +567,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese6.mp4',
           coordinates: [
-            { value: 'table', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'head', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'table', shape: "rect", coordinates: "220, 697, 605, 930" },
+            { value: 'head', shape: "rect", coordinates: "1170, 530, 1430, 920" },
           ]
         },
       }
@@ -583,8 +583,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese7.mp4',
           coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'car', shape: "rect", coordinates: "260, 697, 600, 920" },
+            { value: 'bowl', shape: "rect", coordinates: "1170, 700, 1450, 900" },
           ]
         },
       }
@@ -599,8 +599,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese8.mp4',
           coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'car', shape: "rect", coordinates: "260, 697, 600, 920" },
+            { value: 'bowl', shape: "rect", coordinates: "1170, 700, 1450, 900" },
           ]
         },
       }
@@ -615,8 +615,8 @@ var def_to_expert = [
         parameters: {
           filename: '../../../assets/movie/def_to_expert/deference_to_expert_chinese9.mp4',
           coordinates: [
-            { value: 'car', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'bowl', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'car', shape: "rect", coordinates: "260, 697, 600, 920" },
+            { value: 'bowl', shape: "rect", coordinates: "1170, 700, 1450, 900" },
           ]
         },
       }
