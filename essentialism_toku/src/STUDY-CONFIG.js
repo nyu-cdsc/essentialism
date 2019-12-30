@@ -1,7 +1,3 @@
-///////// TEMPLATE /////////
-
-///////// Stimuli /////////
-
 ///////// Start Game /////////
 var forms = {
   type: 'action',
@@ -19,6 +15,7 @@ var forms = {
     }
   ]
 }
+
 var startGame_fh = [
   {
     type: 'action',
@@ -158,6 +155,7 @@ var stability_fh = [
   },
 ]
 
+///// Causal Explanations /////
 var causal_fh = [
   {
     type: 'action',
@@ -221,6 +219,7 @@ var causal_fh = [
   }
 ]
 
+///// Homogeneity /////
 var homogeneity_fh = [
   {
     type: 'action',
@@ -350,6 +349,7 @@ var homogeneity_fh = [
   },
 ]
 
+///// Naturalness /////
 var natural_fh = [
   {
     type: 'action',
@@ -413,6 +413,7 @@ var natural_fh = [
   }
 ]
 
+///// Strict Boundaries /////
 var bound_fh = [
   {
     type: 'action',
@@ -623,6 +624,7 @@ var def_to_expert = [
   }
 ]
 
+///// Relational vs Object Thinking /////
 var relational = [
   {
     type: 'action',
@@ -686,30 +688,18 @@ var familiar_human = [
   natural_fh,
   def_to_expert,
   relational
-  // end
 ];
 
-
-
 // var novel_human = [
-//   forms,
-//   startGame_nh,
-//   intro,
-//   attn_check_intro,
-//   attn_check,
-//   pizza_spec,
-//   paint_spec,
-//   transition,
-//   [
-//     tree_spec,
-//     piano_spec,
-//     {
-//       type: 'control',
-//       shuffle: true
-//     }
-//   ],
-//   pragmatics,
-//   end
+// forms,
+// startGame_nh,
+// causal_nh,
+// stability_nh,
+// bound_nh,
+// homogeneity_nh,
+// natural_nh,
+// def_to_expert,
+// relational
 // ];
 
 
@@ -722,6 +712,7 @@ var familiar_human = [
 export const Project = {
   conditions: [ // list all of your conditions here. Participants are randomly assigned to one of them
     familiar_human,
+    // novel_human
   ],
   name: "essentialism_china", // Put the name of your study here
   ended: { // this what happens when your study ends i.e., the last thing that happens before the study restarts
