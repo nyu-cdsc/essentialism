@@ -350,7 +350,6 @@ var homogeneity_fh = [
   },
 ]
 
-// TODO Coordinates
 var natural_fh = [
   {
     type: 'action',
@@ -373,8 +372,8 @@ var natural_fh = [
         parameters: {
           filename: '../../../assets/movie/natural/natural_fh_chinese2.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
@@ -389,8 +388,8 @@ var natural_fh = [
         parameters: {
           filename: '../../../assets/movie/natural/natural_fh_chinese3.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
@@ -405,8 +404,8 @@ var natural_fh = [
         parameters: {
           filename: '../../../assets/movie/natural/natural_fh_chinese4.mp4',
           coordinates: [
-            { value: 'yes', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'no', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
