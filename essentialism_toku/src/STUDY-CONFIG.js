@@ -221,7 +221,6 @@ var causal_fh = [
   }
 ]
 
-// TODO Coordinates
 var homogeneity_fh = [
   {
     type: 'action',
@@ -244,7 +243,7 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese2.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
           ]
         },
       }
@@ -259,7 +258,7 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese3.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
           ]
         },
       }
@@ -274,7 +273,7 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese4.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
           ]
         },
       }
@@ -289,7 +288,7 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese5.mp4',
           coordinates: [
-            { value: 'correct', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
           ]
         },
       }
@@ -304,10 +303,10 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese6.mp4',
           coordinates: [
-            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
           ]
         },
       }
@@ -322,10 +321,10 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
           coordinates: [
-            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
           ]
         },
       }
@@ -340,10 +339,10 @@ var homogeneity_fh = [
         parameters: {
           filename: '../../../assets/movie/homogeneity/homo_fh_chinese8.mp4',
           coordinates: [
-            { value: 'one', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'few', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'lots', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'all', shape: "rect", coordinates: "150, 500, 400, 950" },
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
           ]
         },
       }
