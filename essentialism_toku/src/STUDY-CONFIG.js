@@ -480,7 +480,6 @@ var bound_fh = [
 
 ///// Deference to Experts /////
 
-// TODO Coordinates mostly done but check
 var def_to_expert = [
   {
     type: 'action',
@@ -624,7 +623,6 @@ var def_to_expert = [
   }
 ]
 
-// TODO Coordinates
 var relational = [
   {
     type: 'action',
@@ -635,8 +633,8 @@ var relational = [
         parameters: {
           filename: '../../../assets/movie/relational/relational_chinese1.mp4',
           coordinates: [
-            { value: 'same', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'different', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'same', shape: "rect", coordinates: "75, 375, 460, 550" },
+            { value: 'different', shape: "rect", coordinates: "1120, 375, 1500, 550" },
           ]
         },
       }
@@ -651,108 +649,14 @@ var relational = [
         parameters: {
           filename: '../../../assets/movie/relational/relational_chinese2.mp4',
           coordinates: [
-            { value: 'different', shape: "rect", coordinates: "150, 500, 400, 950" },
-            { value: 'same', shape: "rect", coordinates: "1200, 500, 1500, 950" },
+            { value: 'different', shape: "rect", coordinates: "75, 375, 460, 550" },
+            { value: 'same', shape: "rect", coordinates: "1120, 375, 1500, 550" },
           ]
         },
       }
     ]
   }
 ]
-
-
-
-
-// var piano = [
-//   {
-//     type: 'action',
-//     id: 'piano_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/piano_toma.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'piano_kita',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/piano_kita.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'action',
-//     id: 'piano_gazzer',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/piano_gazzer.mp4',
-//           coordinates: [
-//             { value: 'yes', shape: "rect", coordinates: "250, 650, 480, 900" },
-//             { value: 'no', shape: "rect", coordinates: "1150, 650, 1380, 900" },
-//           ],
-//           delayResponse: '3',
-//         },
-//       }
-//     ]
-//   },
-//   {
-//     type: 'control',
-//     shuffle: true,
-//   }
-// ]
-
-// var piano_gen = [
-//   {
-//     type: 'action',
-//     id: 'piano_generic_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/piano_gen_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   piano
-// ]
-
-// var piano_spec = [
-//   {
-//     type: 'action',
-//     id: 'piano_specific_toma',
-//     stimuli: [
-//       {
-//         type: 'movie',
-//         parameters: {
-//           filename: '../../../assets/movie/piano_spec_toma.mp4',
-//         },
-//       }
-//     ]
-//   },
-//   piano
-// ]
-
 
 ///////// End! /////////
 // var end = [
@@ -768,29 +672,12 @@ var relational = [
 //       }
 //     ]
 //   },
-//   {
-//     type: 'action',
-//     id: 'form',
-//     stimuli: [
-//       {
-//         type: 'form',
-//         parameters: {
-//           questions: [
-//             { name: 'comments', type: "text", questionText: "Experimenter ID" },
-//             { name: 'noise', type: "dropdown", options: ["No noise", "A little noisy", "Noisy", "Very noisy"], questionText: "Please rate the noise level." },
-//             { name: 'noise_engagement', type: "dropdown", options: ["No", "A little", "A lot"], questionText: "Did the noise effect the child's engagement?" },
-//             { name: 'attentive', type: "dropdown", options: ["Attentive/Excited", "Attentive", "Distracted", "Not paying attention"], questionText: "How attentive was the child?" },
-//           ]
-//         }
-//       }
-//     ]
-//   }
 // ]
 
 ///////// The Conditions /////////
 
 var familiar_human = [
-  // forms,
+  forms,
   startGame_fh,
   causal_fh,
   stability_fh,
