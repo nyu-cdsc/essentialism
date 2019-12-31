@@ -726,7 +726,7 @@ export const Project = {
           questions: [
             { name: 'comments', type: "text", questionText: "Experimenter ID" },
             { name: 'attentive', type: "dropdown", options: ["Attentive/Excited", "Attentive", "Distracted", "Not paying attention"], questionText: "How attentive was the child?" },
-            { name: 'comments', type: "text", questionText: "Comments? Experimentor errors, when child stopped paying attention, etc?" },
+            { name: 'comments', type: "text", questionText: "Comments? Experimenter errors, when child stopped paying attention, etc?" },
           ]
         }
       }

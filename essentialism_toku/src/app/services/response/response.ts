@@ -11,7 +11,7 @@ export class Response {
 
   constructor(input?) {
     this.data = new Map();
-    this.data.set('id', input ? input.id : Date.now()); // todo make better
+    this.data.set('id', input ? input.id : Date.now().toString().concat('C'));
     this.data.set('datestamp', input ? input.datestamp : new Date().toISOString());
     this.data.set('participant', input ? input.participant : -1);
     this.data.set('block', input ? input.block : '');
@@ -19,8 +19,8 @@ export class Response {
     this.data.set('response', input ? input.response : '');
 
     // const remainder = [];
-    for ( const key in input ) {
-      if( !this.data.get(key) ) {
+    for (const key in input) {
+      if (!this.data.get(key)) {
         this.data.set(key, input[key]);
       }
     }
@@ -36,7 +36,7 @@ export class Response {
       if (current === 'block') {
         return accum;
       }
-      
+
       if (idx === 1) {
         accum = accum + ',';
       }
@@ -55,22 +55,38 @@ export class Response {
     const values = Array.from(this.data.values());
 
     const output = keys.reduce((accum, cur, idx) => {
-      if (idx === 1) {
-        accum = values[idx].toString() + ',';
-      }
-
-      if (keys[idx] === 'block') {
-        return accum;
-      }
-
       let temp = '';
-      if (values[idx] === Object(values[idx])) {
-        temp = JSON.stringify(values[idx]);
-      } else {
-        temp = values[idx].toString();
-        if (temp.indexOf(',') !== -1) {
-          temp = '"' + temp + '"';
+      try {
+        console.log(accum, cur, idx, 'inside to CSV');
+        if (idx === 1) {
+          accum = values[idx - 1].toString() + ',';
         }
+
+        if (keys[idx] === 'block') {
+          return accum;
+        }
+
+        if (values[idx] === Object(values[idx])) {
+          temp = JSON.stringify(values[idx]);
+        } else {
+          temp = values[idx].toString();
+
+          if (idx === 2) {
+            temp = values[idx].toString().concat('C');
+          }
+
+          if (temp.indexOf(',') !== -1) {
+            temp = '"' + temp + '"';
+          }
+        }
+      } catch (e) {
+        if (e instanceof TypeError) {
+          if (e.message.indexOf('Cannot read property') !== -1) {
+            console.error('Oops, looks like we are missing some data: ' + cur + ' is empty or malformed in the row: ' + this.data);
+          }
+        }
+        console.error('re-throwing exception for further diagnosis');
+        throw e;
       }
       // for values that are lists - todo move thhis to their toString()
 
@@ -81,7 +97,7 @@ export class Response {
   }
 
   toJSON() {
-      // this.data.forEach((v,k) => { z[k] = v; });
+    // this.data.forEach((v,k) => { z[k] = v; });
 
     const keys = Array.from(this.data.keys());
     const out = {};
