@@ -126,7 +126,7 @@ var causal_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese1.mp4',
+          filename: '../../../assets/movie/causal/causal_nh_chinese1.mp4',
         },
       }
     ]
@@ -138,7 +138,7 @@ var causal_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
+          filename: '../../../assets/movie/causal/causal_nh_chinese2.mp4',
           coordinates: [
             { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
             { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
@@ -154,7 +154,7 @@ var causal_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
+          filename: '../../../assets/movie/causal/causal_nh_chinese3.mp4',
           coordinates: [
             { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
             { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
@@ -170,7 +170,7 @@ var causal_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+          filename: '../../../assets/movie/causal/causal_nh_chinese4.mp4',
           coordinates: [
             { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
             { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
@@ -1109,7 +1109,7 @@ var familiar_human = [
 var novel_human = [
   forms,
   startGame_nh,
-  // causal_nh,
+  causal_nh,
   // stability_nh,
   // bound_nh,
   // homogeneity_nh,
