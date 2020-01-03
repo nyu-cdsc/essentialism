@@ -452,7 +452,7 @@ var bound_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese1.mp4',
+          filename: '../../../assets/movie/strict_bound/bound_nh_chinese1.mp4',
         },
       }
     ]
@@ -464,7 +464,7 @@ var bound_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
+          filename: '../../../assets/movie/strict_bound/bound_nh_chinese2.mp4',
           coordinates: [
             { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
             { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
@@ -480,7 +480,7 @@ var bound_nh = [
   //     {
   //       type: 'movie',
   //       parameters: {
-  //         filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+  //         filename: '../../../assets/movie/strict_bound/bound_nh_chinese3.mp4',
   //         coordinates: [
   //           { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
   //           { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
@@ -496,7 +496,7 @@ var bound_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
+          filename: '../../../assets/movie/strict_bound/bound_nh_chinese4.mp4',
           coordinates: [
             { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
             { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
@@ -1111,7 +1111,7 @@ var novel_human = [
   startGame_nh,
   causal_nh,
   // stability_nh,
-  // bound_nh,
+  bound_nh,
   homogeneity_nh,
   natural_nh,
   def_to_expert,
@@ -1123,7 +1123,7 @@ var novel_human = [
 
 export const Project = {
   conditions: [
-    familiar_human,
+    // familiar_human,
     novel_human
   ],
   name: "essentialism_china",
