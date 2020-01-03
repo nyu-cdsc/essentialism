@@ -54,8 +54,134 @@ var startGame_nh = [
 
 ///////// Essentialism Tasks /////////
 
-///// Stability /////
+///// Causal Explanations /////
+var causal_fh = [
+  {
+    type: 'action',
+    id: 'causal_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop1_fence',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop2_ladybug',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop3_shadow',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  }
+]
 
+var causal_nh = [
+  {
+    type: 'action',
+    id: 'causal_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop1_fence',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop2_ladybug',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'causal_prop3_shadow',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+          ]
+        },
+      }
+    ]
+  }
+]
+
+///// Stability /////
 var stability_fh = [
   {
     type: 'action',
@@ -155,31 +281,18 @@ var stability_fh = [
   },
 ]
 
-///// Causal Explanations /////
-var causal_fh = [
+var stability_nh = [
   {
     type: 'action',
-    id: 'causal_intro',
+    id: 'check1_birthgender',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese1.mp4',
-        },
-      }
-    ]
-  },
-  {
-    type: 'action',
-    id: 'causal_prop1_fence',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese2.mp4',
+          filename: '../../../assets/movie/stability/stability_chinese1.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
-            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+            { value: 'boy', shape: "rect", coordinates: "195, 475, 505, 700" },
+            { value: 'girl', shape: "rect", coordinates: "1165, 475, 1485, 700" },
           ]
         },
       }
@@ -187,15 +300,15 @@ var causal_fh = [
   },
   {
     type: 'action',
-    id: 'causal_prop2_ladybug',
+    id: 'check2_islandgender',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese3.mp4',
+          filename: '../../../assets/movie/stability/stability_chinese2.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
-            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+            { value: 'yes', shape: "rect", coordinates: "475, 650, 650, 900" },
+            { value: 'no', shape: "rect", coordinates: "1025, 650, 1200, 900" },
           ]
         },
       }
@@ -203,24 +316,328 @@ var causal_fh = [
   },
   {
     type: 'action',
-    id: 'causal_prop3_shadow',
+    id: 'prop1_amino',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+          filename: '../../../assets/movie/stability/stability_chinese3.mp4',
           coordinates: [
-            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
-            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
           ]
         },
       }
     ]
-  }
+  },
+  {
+    type: 'action',
+    id: 'prop2_spin',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese4.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop3_stick',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese5.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'prop4_gender',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_chinese6.mp4',
+          coordinates: [
+            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+          ]
+        },
+      }
+    ]
+  },
+]
+
+///// Strict Boundaries /////
+var bound_fh = [
+  {
+    type: 'action',
+    id: 'bound_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop1_enzyme',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop2_perilla',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop3_roll',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
+]
+
+var bound_nh = [
+  {
+    type: 'action',
+    id: 'bound_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop1_enzyme',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop2_perilla',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'bound_prop3_roll',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+          ]
+        },
+      }
+    ]
+  },
 ]
 
 ///// Homogeneity /////
 var homogeneity_fh = [
+  {
+    type: 'action',
+    id: 'homogeneity_intro',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese1.mp4',
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup1',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese2.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup2',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese3.mp4',
+          coordinates: [
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup3',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese4.mp4',
+          coordinates: [
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup4',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese5.mp4',
+          coordinates: [
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop1_marrow',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese6.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop2_kiwi',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+          ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'homogeneity_prop3_puddle',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_chinese8.mp4',
+          coordinates: [
+            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+          ]
+        },
+      }
+    ]
+  },
+]
+
+var homogeneity_nh = [
   {
     type: 'action',
     id: 'homogeneity_intro',
@@ -413,31 +830,30 @@ var natural_fh = [
   }
 ]
 
-///// Strict Boundaries /////
-var bound_fh = [
+var natural_nh = [
   {
     type: 'action',
-    id: 'bound_intro',
+    id: 'nat_intro',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese1.mp4',
+          filename: '../../../assets/movie/natural/natural_nh_chinese1.mp4',
         },
       }
     ]
   },
   {
     type: 'action',
-    id: 'bound_prop1_enzyme',
+    id: 'nat_zarpie',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese2.mp4',
+          filename: '../../../assets/movie/natural/natural_nh_chinese2.mp4',
           coordinates: [
-            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
-            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
@@ -445,15 +861,15 @@ var bound_fh = [
   },
   {
     type: 'action',
-    id: 'bound_prop2_perilla',
+    id: 'nat_notzarpie',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+          filename: '../../../assets/movie/natural/natural_nh_chinese3.mp4',
           coordinates: [
-            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
-            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
@@ -461,20 +877,20 @@ var bound_fh = [
   },
   {
     type: 'action',
-    id: 'bound_prop3_roll',
+    id: 'nat_animal',
     stimuli: [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese4.mp4',
+          filename: '../../../assets/movie/natural/natural_nh_chinese4.mp4',
           coordinates: [
-            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
-            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+            { value: 'yes', shape: "rect", coordinates: "170, 700, 620, 925" },
+            { value: 'no', shape: "rect", coordinates: "1115, 700, 1555, 925" },
           ]
         },
       }
     ]
-  },
+  }
 ]
 
 ///////// Cognitive Tasks /////////
@@ -690,35 +1106,30 @@ var familiar_human = [
   relational
 ];
 
-// var novel_human = [
-// forms,
-// startGame_nh,
-// causal_nh,
-// stability_nh,
-// bound_nh,
-// homogeneity_nh,
-// natural_nh,
-// def_to_expert,
-// relational
-// ];
-
+var novel_human = [
+  forms,
+  startGame_nh,
+  // causal_nh,
+  // stability_nh,
+  // bound_nh,
+  // homogeneity_nh,
+  natural_nh,
+  def_to_expert,
+  relational
+];
 
 
 ///////// The Study /////////
-// This is the study block
-// Here is where you list which conditions to include in the study,
-// the name of the study, and the last thing that happens in the study
 
 export const Project = {
-  conditions: [ // list all of your conditions here. Participants are randomly assigned to one of them
-    familiar_human,
-    // novel_human
+  conditions: [
+    // familiar_human,
+    novel_human
   ],
-  name: "essentialism_china", // Put the name of your study here
-  ended: { // this what happens when your study ends i.e., the last thing that happens before the study restarts
-    // right now, I have it set to play a movie that says "Great job!"
+  name: "essentialism_china",
+  ended: {
     type: 'action',
-    id: 'form', // you can change the name of this form to whatever
+    id: 'form',
     stimuli: [
       {
         type: 'form',
