@@ -100,22 +100,22 @@ var causal_fh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'causal_prop3_shadow',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
-          coordinates: [
-            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
-            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
-          ]
-        },
-      }
-    ]
-  }
+  // {
+  //   type: 'action',
+  //   id: 'causal_prop3_shadow',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/causal/causal_fh_chinese4.mp4',
+  //         coordinates: [
+  //           { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+  //           { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // }
 ]
 
 var causal_nh = [
@@ -163,22 +163,22 @@ var causal_nh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'causal_prop3_shadow',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/causal/causal_nh_chinese4.mp4',
-          coordinates: [
-            { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
-            { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
-          ]
-        },
-      }
-    ]
-  }
+  // {
+  //   type: 'action',
+  //   id: 'causal_prop3_shadow',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/causal/causal_nh_chinese4.mp4',
+  //         coordinates: [
+  //           { value: 'group', shape: "rect", coordinates: "110, 715, 515, 925" },
+  //           { value: 'individual', shape: "rect", coordinates: "1120, 715, 1550, 925" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // }
 ]
 
 ///// Stability /////
@@ -247,22 +247,22 @@ var stability_fh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'prop3_stick',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/stability/stability_chinese5.mp4',
-          coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'prop3_stick',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/stability/stability_chinese5.mp4',
+  //         coordinates: [
+  //           { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+  //           { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'prop4_gender',
@@ -346,22 +346,22 @@ var stability_nh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'prop3_stick',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/stability/stability_chinese5.mp4',
-          coordinates: [
-            { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
-            { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'prop3_stick',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/stability/stability_chinese5.mp4',
+  //         coordinates: [
+  //           { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+  //           { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'prop4_gender',
@@ -410,22 +410,22 @@ var bound_fh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'bound_prop2_perilla',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
-          coordinates: [
-            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
-            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'bound_prop2_perilla',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+  //         coordinates: [
+  //           { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+  //           { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'bound_prop3_roll',
@@ -473,22 +473,22 @@ var bound_nh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'bound_prop2_perilla',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
-          coordinates: [
-            { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
-            { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'bound_prop2_perilla',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/strict_bound/bound_fh_chinese3.mp4',
+  //         coordinates: [
+  //           { value: 'yes_strict', shape: "rect", coordinates: "75, 700, 505, 950" },
+  //           { value: 'no_not_strict', shape: "rect", coordinates: "1110, 700, 1550, 950" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'bound_prop3_roll',
@@ -599,24 +599,24 @@ var homogeneity_fh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'homogeneity_prop2_kiwi',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
-          coordinates: [
-            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
-            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
-            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
-            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'homogeneity_prop2_kiwi',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
+  //         coordinates: [
+  //           { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+  //           { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+  //           { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+  //           { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'homogeneity_prop3_puddle',
@@ -728,24 +728,24 @@ var homogeneity_nh = [
       }
     ]
   },
-  {
-    type: 'action',
-    id: 'homogeneity_prop2_kiwi',
-    stimuli: [
-      {
-        type: 'movie',
-        parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
-          coordinates: [
-            { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
-            { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
-            { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
-            { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
-          ]
-        },
-      }
-    ]
-  },
+  // {
+  //   type: 'action',
+  //   id: 'homogeneity_prop2_kiwi',
+  //   stimuli: [
+  //     {
+  //       type: 'movie',
+  //       parameters: {
+  //         filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
+  //         coordinates: [
+  //           { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
+  //           { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
+  //           { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
+  //           { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
+  //         ]
+  //       },
+  //     }
+  //   ]
+  // },
   {
     type: 'action',
     id: 'homogeneity_prop3_puddle',
@@ -1123,8 +1123,8 @@ var novel_human = [
 
 export const Project = {
   conditions: [
-    // familiar_human,
-    novel_human
+    familiar_human,
+    // novel_human
   ],
   name: "essentialism_china",
   ended: {
