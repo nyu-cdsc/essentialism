@@ -645,7 +645,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese1.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese1.mp4',
         },
       }
     ]
@@ -657,7 +657,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese2.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese2.mp4',
           coordinates: [
             { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
           ]
@@ -672,7 +672,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese3.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese3.mp4',
           coordinates: [
             { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
           ]
@@ -687,7 +687,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese4.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese4.mp4',
           coordinates: [
             { value: 'lots', shape: "rect", coordinates: "890, 650, 1135, 955" },
           ]
@@ -702,7 +702,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese5.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese5.mp4',
           coordinates: [
             { value: 'all', shape: "rect", coordinates: "1230, 650, 1475, 955" },
           ]
@@ -717,7 +717,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese6.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese6.mp4',
           coordinates: [
             { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
             { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -735,7 +735,7 @@ var homogeneity_nh = [
   //     {
   //       type: 'movie',
   //       parameters: {
-  //         filename: '../../../assets/movie/homogeneity/homo_fh_chinese7.mp4',
+  //         filename: '../../../assets/movie/homogeneity/homo_nh_chinese7.mp4',
   //         coordinates: [
   //           { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
   //           { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -753,7 +753,7 @@ var homogeneity_nh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/homogeneity/homo_fh_chinese8.mp4',
+          filename: '../../../assets/movie/homogeneity/homo_nh_chinese8.mp4',
           coordinates: [
             { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
             { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -1112,7 +1112,7 @@ var novel_human = [
   causal_nh,
   // stability_nh,
   // bound_nh,
-  // homogeneity_nh,
+  homogeneity_nh,
   natural_nh,
   def_to_expert,
   relational
@@ -1124,7 +1124,7 @@ var novel_human = [
 export const Project = {
   conditions: [
     familiar_human,
-    // novel_human
+    novel_human
   ],
   name: "essentialism_china",
   ended: {
