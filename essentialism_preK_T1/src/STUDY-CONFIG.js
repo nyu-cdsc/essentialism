@@ -370,22 +370,22 @@ var overhypothesis = [
 
 ///// Inherence Task /////
 var inherence = [
-  // {
-  //   type: 'action',
-  //   id: 'inherence_nocontact',
-  //   stimuli: [
-  //     {
-  //       type: 'movie',
-  //       parameters: {
-  //         filename: '../../../assets/movie/inherence/inherence_eng1.mp4',
-  //         coordinates: [
-  //           { value: 'inside', shape: "rect", coordinates: "600, 700, 725, 825" },
-  //           { value: 'outside', shape: "rect", coordinates: "1020, 700, 1140, 825" },
-  //         ]
-  //       },
-  //     }
-  //   ]
-  // },
+  {
+    type: 'action',
+    id: 'inherence_nocontact',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/inherence/inherence_eng1.mp4',
+          coordinates: [
+            { value: 'inside', shape: "rect", coordinates: "600, 700, 725, 825" },
+            { value: 'outside', shape: "rect", coordinates: "1020, 700, 1140, 825" },
+          ]
+        },
+      }
+    ]
+  },
   {
     type: 'action',
     id: 'inherence_contact',
@@ -409,7 +409,6 @@ var inherence = [
 var cognitive_tasks = [
   forms,
   startGame,
-  inherence,
   [
     def_to_expert,
     relational,
@@ -418,7 +417,8 @@ var cognitive_tasks = [
       type: 'control',
       shuffle: true
     }
-  ]
+  ],
+  inherence
 ];
 
 ///////// The Study /////////
