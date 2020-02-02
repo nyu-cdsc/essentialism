@@ -617,6 +617,18 @@ var homogeneity_fh = [
       }
     ]
   },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup5',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_fh_eng_great.mp4',
+        },
+      }
+    ]
+  },
   [
     {
       type: 'action',
@@ -1205,7 +1217,7 @@ var novel_human = [
 export const Project = {
   conditions: [
     familiar_human,
-    novel_human
+    // novel_human
   ],
   name: "essentialism_cmom",
   ended: {
