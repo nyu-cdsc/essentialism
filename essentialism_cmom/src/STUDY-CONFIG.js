@@ -202,7 +202,7 @@ var stability_fh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/stability/stability_eng1.mp4',
+          filename: '../../../assets/movie/stability/stability_fh_eng1.mp4',
           coordinates: [
             { value: 'boy', shape: "rect", coordinates: "195, 475, 505, 700" },
             { value: 'girl', shape: "rect", coordinates: "1165, 475, 1485, 700" },
@@ -218,11 +218,23 @@ var stability_fh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/stability/stability_eng2.mp4',
+          filename: '../../../assets/movie/stability/stability_fh_eng2.mp4',
           coordinates: [
             { value: 'yes', shape: "rect", coordinates: "475, 650, 650, 900" },
             { value: 'no', shape: "rect", coordinates: "1025, 650, 1200, 900" },
           ]
+        },
+      }
+    ]
+  },
+  {
+    type: 'action',
+    id: 'stability_transition',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_fh_eng_trans.mp4',
         },
       }
     ]
@@ -235,7 +247,7 @@ var stability_fh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/stability/stability_eng3.mp4',
+            filename: '../../../assets/movie/stability/stability_fh_eng3.mp4',
             coordinates: [
               { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
               { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
@@ -251,7 +263,7 @@ var stability_fh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/stability/stability_eng4.mp4',
+            filename: '../../../assets/movie/stability/stability_fh_eng4.mp4',
             coordinates: [
               { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
               { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
@@ -267,7 +279,7 @@ var stability_fh = [
     //     {
     //       type: 'movie',
     //       parameters: {
-    //         filename: '../../../assets/movie/stability/stability_eng5.mp4',
+    //         filename: '../../../assets/movie/stability/stability_fh_eng5.mp4',
     //         coordinates: [
     //           { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
     //           { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
@@ -288,7 +300,7 @@ var stability_fh = [
       {
         type: 'movie',
         parameters: {
-          filename: '../../../assets/movie/stability/stability_eng6.mp4',
+          filename: '../../../assets/movie/stability/stability_fh_eng6.mp4',
           coordinates: [
             { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
             { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
