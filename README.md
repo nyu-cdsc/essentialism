@@ -17,7 +17,9 @@ For this, you will need to be connected to the internet.
 1) Locate the folder titled `essentialism` on the lab computer. This is likely installed on the Desktop. Inside that folder, there will be a folder for the specific essentialism study you are running. 
 
  - Cross-sectional studies in China, find the folder called `essentialism_toku`. 
+ - Cross-sectional studies in the US, find the folder called `essentialism_cmom`.
  - Timepoint 1 in the longitudinal studies in the US, find the folder called `essentialism_preK_T1`.
+ - Timepoint 2 in the longitudinal studies in the US, find the folder called `essentialism_preK_T2`.
 
 2) Open the folder for your specific studying with VS Code. You can possibly do this by right clicking on the folder (there might be an option that says "Open with Code"). If that option is not available, open VS Code, click "File" (on the top left corner), and then click "Open Folder". Find the folder for your study and open it. 
 
