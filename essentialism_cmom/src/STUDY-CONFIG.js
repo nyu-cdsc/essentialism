@@ -344,6 +344,18 @@ var stability_nh = [
       }
     ]
   },
+  {
+    type: 'action',
+    id: 'transition',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/stability/stability_nh_eng3.mp4',
+        },
+      }
+    ]
+  },
   [
     {
       type: 'action',
@@ -352,7 +364,7 @@ var stability_nh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/stability/stability_nh_eng3.mp4',
+            filename: '../../../assets/movie/stability/stability_nh_eng4.mp4',
             coordinates: [
               { value: 'zarpie', shape: "rect", coordinates: "80, 700, 400, 900" },
               { value: 'notzarpie', shape: "rect", coordinates: "1200, 700, 1525, 900" },
@@ -368,7 +380,7 @@ var stability_nh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/stability/stability_nh_eng4.mp4',
+            filename: '../../../assets/movie/stability/stability_nh_eng5.mp4',
             coordinates: [
               { value: 'zarpie', shape: "rect", coordinates: "80, 700, 400, 900" },
               { value: 'notzarpie', shape: "rect", coordinates: "1200, 700, 1525, 900" },
@@ -377,22 +389,6 @@ var stability_nh = [
         }
       ]
     },
-    // {
-    //   type: 'action',
-    //   id: 'prop3_stick',
-    //   stimuli: [
-    //     {
-    //       type: 'movie',
-    //       parameters: {
-    //         filename: '../../../assets/movie/stability/stability_eng5.mp4',
-    //         coordinates: [
-    //           { value: 'zarpie', shape: "rect", coordinates: "80, 700, 400, 900" },
-    //           { value: 'notzarpie', shape: "rect", coordinates: "1200, 700, 1525, 900" },
-    //         ]
-    //       },
-    //     }
-    //   ]
-    // },
     {
       type: 'control',
       shuffle: true
@@ -662,12 +658,12 @@ var homogeneity_fh = [
     },
     // {
     //   type: 'action',
-    //   id: 'homogeneity_prop2_kiwi',
+    //   id: 'homogeneity_prop2_pitaya',
     //   stimuli: [
     //     {
     //       type: 'movie',
     //       parameters: {
-    //         filename: '../../../assets/movie/homogeneity/homo_fh_eng7.mp4',
+    //         filename: '../../../assets/movie/homogeneity/homo_fh_eng8.mp4',
     //         coordinates: [
     //           { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
     //           { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -685,7 +681,7 @@ var homogeneity_fh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/homogeneity/homo_fh_eng8.mp4',
+            filename: '../../../assets/movie/homogeneity/homo_fh_eng7.mp4',
             coordinates: [
               { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
               { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -776,6 +772,18 @@ var homogeneity_nh = [
       }
     ]
   },
+  {
+    type: 'action',
+    id: 'homogeneity_warmup5',
+    stimuli: [
+      {
+        type: 'movie',
+        parameters: {
+          filename: '../../../assets/movie/homogeneity/homo_nh_eng_great.mp4',
+        },
+      }
+    ]
+  },
   [
     {
       type: 'action',
@@ -797,12 +805,12 @@ var homogeneity_nh = [
     },
     // {
     //   type: 'action',
-    //   id: 'homogeneity_prop2_kiwi',
+    //   id: 'homogeneity_prop2_pitaya',
     //   stimuli: [
     //     {
     //       type: 'movie',
     //       parameters: {
-    //         filename: '../../../assets/movie/homogeneity/homo_nh_eng7.mp4',
+    //         filename: '../../../assets/movie/homogeneity/homo_nh_eng8.mp4',
     //         coordinates: [
     //           { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
     //           { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -820,7 +828,7 @@ var homogeneity_nh = [
         {
           type: 'movie',
           parameters: {
-            filename: '../../../assets/movie/homogeneity/homo_nh_eng8.mp4',
+            filename: '../../../assets/movie/homogeneity/homo_nh_eng7.mp4',
             coordinates: [
               { value: 'one', shape: "rect", coordinates: "215, 650, 465, 955" },
               { value: 'few', shape: "rect", coordinates: "550, 650, 800, 955" },
@@ -1229,7 +1237,7 @@ var novel_human = [
 export const Project = {
   conditions: [
     familiar_human,
-    // novel_human
+    novel_human
   ],
   name: "essentialism_cmom",
   ended: {
