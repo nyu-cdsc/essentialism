@@ -24,6 +24,7 @@ For this, you will need to be connected to the internet.
 2) Open the folder for your specific studying with VS Code. You can possibly do this by right clicking on the folder (there might be an option that says "Open with Code"). If that option is not available, open VS Code, click "File" (on the top left corner), and then click "Open Folder". Find the folder for your study and open it. 
 
 3) Open up a terminal. You can do this by clicking "Terminal" and then "New Terminal" on the top menu, or by clicking `CTRL` + `SHIFT` + `` ` ``. 
+3b) If study has never been ran on this computer before, type `npm install` into the terminal. This might take a moment. 
 
 4) Type `npm start` into the terminal. This starts the game. This might take a moment. Wait for the terminal to tell you that the app has been "compiled successfully."
 
