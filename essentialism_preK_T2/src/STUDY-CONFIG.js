@@ -371,22 +371,22 @@ var stability_nh = [
         }
       ]
     },
-    // {
-    //   type: 'action',
-    //   id: 'prop3_stick',
-    //   stimuli: [
-    //     {
-    //       type: 'movie',
-    //       parameters: {
-    //         filename: '../../../assets/movie/stability/stability_fh_eng5.mp4',
-    //         coordinates: [
-    //           { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
-    //           { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
-    //         ]
-    //       },
-    //     }
-    //   ]
-    // },
+    {
+      type: 'action',
+      id: 'prop3_stick',
+      stimuli: [
+        {
+          type: 'movie',
+          parameters: {
+            filename: '../../../assets/movie/stability/stability_nh_eng7.mp4',
+            coordinates: [
+              { value: 'girl', shape: "rect", coordinates: "80, 700, 400, 900" },
+              { value: 'boy', shape: "rect", coordinates: "1200, 700, 1525, 900" },
+            ]
+          },
+        }
+      ]
+    },
     {
       type: 'control',
       shuffle: true
